@@ -10,13 +10,23 @@ h4 {
     text-transform: uppercase;
 }
 
+main {
+	width: 100%;
+	display: flex;
+	flex-wrap: wrap;
+}
 
+
+
+.img-responsive {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
 
 .logo{
     width:100px;
 }
-
-
 
 
 
