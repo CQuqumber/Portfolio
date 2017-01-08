@@ -2,8 +2,12 @@ body {
 	overflow: auto;
 }
 
+
+article {
+    margin-bottom: auto;
+}
 #footer {
-     margin-top: 100px;
+    margin-top: 100px;
 }
 
 header {
@@ -13,7 +17,7 @@ header {
     box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.26);
 }
 
- hr {
+hr {
     color:#7d97ad;
  }
 
