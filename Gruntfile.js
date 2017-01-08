@@ -6,7 +6,8 @@ module.exports = function(grunt) {
         options: {
           engine: 'im',
           sizes: [{
-            width: 800,
+            width: 1200,
+            height:300,
             suffix: '_large_1x',
             quality: 50
           }]
@@ -18,7 +19,7 @@ module.exports = function(grunt) {
           dest: 'img/'
         }]
       }
-    },
+    }
   });
 
   grunt.loadNpmTasks('grunt-responsive-images');
