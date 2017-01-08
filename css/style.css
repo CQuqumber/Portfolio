@@ -2,12 +2,26 @@ body {
 	overflow: auto;
 }
 
+#footer {
+     margin-top: 100px;
+}
+
+header {
+    background: #00bcd4;
+    margin-bottom: 5px;
+    padding: 20px 0;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.26);
+}
+
+ hr {
+    color:#7d97ad;
+ }
+
 h1,
 h2,
 h3,
 h4 {
     margin: 0;
-    text-transform: uppercase;
 }
 
 main {
@@ -15,7 +29,6 @@ main {
 	display: flex;
 	flex-wrap: wrap;
 }
-
 
 
 .img-responsive {
@@ -30,8 +43,26 @@ main {
 
 
 
+ul.topnav li a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
 
+ul.topnav li a:hover:not(.active) {
+    background-color: #607D8B;
+    color: white;
+}
 
-#footer {
-	 margin-top: 100px;
+ul.topnav li a.active {
+    background-color: #607D8B;
+    color: white;
+    }
+
+@media screen and (min-width: 1200px) {
+    .container {
+        width: 1170px;
+    }
 }
